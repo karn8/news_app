@@ -1,0 +1,34 @@
+BottomNavigationBar(
+        selectedItemColor:Colors.purpleAccent[600],
+        items:  [
+          BottomNavigationBarItem(
+            icon: Padding(
+              padding: const EdgeInsets.only(top: 8.0),
+              child: Icon(
+                Icons.article,
+                color: Colors.grey[600],),
+            ),
+            label: ''),
+
+          BottomNavigationBarItem(
+            icon: Padding(
+              padding: const EdgeInsets.only(right: 25.0),
+              child: Icon(
+                Icons.trending_up,
+                color: Colors.grey[600],),
+            ),
+            label: ''),
+
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.pie_chart,
+              color: Colors.grey[600],),
+            label: ''),
+
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.person,
+              color: Colors.grey[600],),
+            label: ''),
+        ]
+      ),
